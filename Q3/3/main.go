@@ -48,5 +48,5 @@ func main() {
 	}
 
 	io.Copy(writer, strings.NewReader("aiueo"))
-	// ちょっとこの問題何言ってるか意味不明よ
+	// ちょっとこの問題意味不明すぎんよ
 }
