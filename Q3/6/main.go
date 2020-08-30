@@ -13,6 +13,10 @@ var (
 )
 
 func main() {
+	buildASCII()
+}
+
+func buildASCII() {
 	var stream io.Reader
 	// ここにioパッケージを使ってコードを書く
 	stream = io.MultiReader(
